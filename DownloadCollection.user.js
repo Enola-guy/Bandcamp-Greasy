@@ -102,6 +102,9 @@ var throttleDownloadInterval = 5;
         #bandcamp-greasy .album-infos .album-info input[type="checkbox"]:disabled ~ .item {
             text-decoration: line-through;
         }
+        #bandcamp-greasy > a.download:focus {
+            color: hsl(115, 100%, 48%) !important;
+        }
     `;
 
     var mainContainer = element('div', {id: 'bandcamp-greasy'}, [
